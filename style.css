@@ -1,0 +1,72 @@
+
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Search bantı */
+.search-band {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background-color: #ddd;
+    padding: 10px;
+    
+}
+
+/* Search kutusu */
+.search-band input {
+    padding: 5px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 135px;
+}
+
+
+/* İkinci yatay bant */
+.horizontal-band {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    
+}
+
+/* Üç kutu */
+.box {
+    flex: 1;
+    height: 150px;
+    background-color: lightblue;
+    margin-right: 5px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    
+}
+#button1 {
+    margin-right: 10px;
+ }
+
+ .search-text {
+    position: absolute;
+    left: 50%; /* Metni yatayda ortalar */
+    transform: translateX(-50%); /* Yatayda tam ortala */
+    margin-top:100px; /* Serach kutusundan biraz yukarıda olsun */
+}
+
+#p1 {
+    text-align: center;
+}
+
+#p2 {
+    text-align: center; /* Yatayda metni ortala */
+    
+}
+ #footer {
+    text-align: center;
+ }
