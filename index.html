@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html>
+<html lang="tr">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google!</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <div class="page-content">
-        <div class="search-band">
+    <!--Container Start-->
+    <div class="container">
+        <img id="resim" width="351" height="113"
+            src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="">
+        <!--Search Kismi-->
+        <div class="search-kutusu">
             <p class="search-text">Search the web using Google!</p>
-            <input type="text" placeholder="Search.." name="search">
+            <input type="text" placeholder="" name="search">
         </div>
         <div class="buttons">
             <button id="button1">Google Search</button>
             <button id="button2">I'm feeling lucky</button>
         </div>
-        <div class="horizontal-band">
+        <!--Search Kisminin Bitisi-->
+        <!--Uc Box'un Baslangic Kismi-->
+        <div class="ikinci-kutu">
+            <!--Ilk Box-->
             <div class="box">
                 <p id="p1">Special Search<br>
                     Stanford Search <br>
@@ -23,6 +34,7 @@
                     <br>
                 </p>
             </div>
+            <!--Ikinci Box-->
             <div class="box">
                 <p id="p2">Help!<br>
                     About Google! <br>
@@ -31,10 +43,21 @@
                     <br>
                 </p>
             </div>
-            <div class="box"></div>
+            <!--Ucuncu Box-->
+            <div style="margin-right: 0%;" class="box">
+                <p style="text-align: center; margin-top: 0;">Get Google! <br>
+                    updates monthly:</p>
+                <input id="box3-search" type="text" placeholder="your e-mail" name="search">
+                <div class="box3-content">
+                    <button style="margin-top: 14px;" id="last-button">Subscribe</button>
+                    <p style="margin-bottom: 25px; color: blue;">Archive</p>
+                </div>
+            </div>
         </div>
-        <p id="footer">Copyright ©1998 Google Inc.</p>
+        <!--Uc Box'un Bitis Kismi-->
+        <p id="son-satir">Copyright ©1998 Google Inc.</p>
     </div>
+    <!--Container End-->
 </body>
 
 </html>
